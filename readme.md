@@ -34,7 +34,7 @@ To train the model, use the following command:
 docker run --name DentAge --gpus all -it --rm -v $(pwd):/app pytorch_dentage python3 train.py
 ```
 
-To evaluate on test case, use:
+To evaluate on test case, download model from release and run:
 
 ```bash
 docker run --name DentAge --gpus all -it --rm -v $(pwd):/app pytorch_dentage python3 predict_example.py
